@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P0aTyZ9hiHk2U3heYGPJrCkwJWlwvpvveeoefU8Q2KaLkWbeyQSugo0D5epiXzBk3nKG1cmyJ8EK6PEVHcJbCA==",
+  "dgSpecHash": "ihHHzVPERmGmNwsL4mZyq4A9LzXx4JhPnTsefZrm04xfroQtq4hfWRsKYJlEW2ip9jETxl0aRAC9eadgPbsp+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\source\\repos\\BWDashboard\\BWDashboard\\BWDashboard.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\BWDashboard\\BWDashboard\\BWDashboard.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
