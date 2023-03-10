@@ -566,3 +566,4 @@ C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\refint\BWDashboard.
 C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\BWDashboard.pdb
 C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\BWDashboard.genruntimeconfig.cache
 C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\ref\BWDashboard.dll
+C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\scopedcss\Pages\Shared\_AuthLayout.cshtml.rz.scp.css
