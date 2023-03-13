@@ -1,12 +1,14 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using BWDashboard.Data;
+using BWDashboard.Areas.Identity.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("BWDashboardContextConnection") ?? throw new InvalidOperationException("Connection string 'BWDashboardContextConnection' not found.");
 
 builder.Services.AddDbContext<BWDashboardContext>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<BWDashboardContext>();
+builder.Services.AddDefaultIdentity<Users>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<BWDashboardContext>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();

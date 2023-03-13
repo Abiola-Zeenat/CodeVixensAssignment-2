@@ -119,7 +119,7 @@
                                 </form>
                             </div>
                             <div class="card-footer text-center py-3">
-                                <div class="small"><a href="Areas\Identity\Pages\Account\Login.cshtml">Have an account? Go to login</a></div>
+                                <div class="small"><a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Have an account? Go to login</a></div>
                             </div>
                         </div>
                     </div>

@@ -567,3 +567,9 @@ C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\BWDashboard.pdb
 C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\BWDashboard.genruntimeconfig.cache
 C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\ref\BWDashboard.dll
 C:\Users\HP\Desktop\BWDashboard\BWDashboard\obj\Debug\net7.0\scopedcss\Pages\Shared\_AuthLayout.cshtml.rz.scp.css
+C:\Users\HP\Desktop\BWDashboard\BWDashboard\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\HP\Desktop\BWDashboard\BWDashboard\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\HP\Desktop\BWDashboard\BWDashboard\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\HP\Desktop\BWDashboard\BWDashboard\bin\Debug\net7.0\Migrations\20230312204624_InitialCreate.cs
+C:\Users\HP\Desktop\BWDashboard\BWDashboard\bin\Debug\net7.0\Migrations\20230312215639_InitialCreates.cs
+C:\Users\HP\Desktop\BWDashboard\BWDashboard\bin\Debug\net7.0\Migrations\BWDashboardContextModelSnapshot.cs
