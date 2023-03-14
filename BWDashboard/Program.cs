@@ -8,7 +8,7 @@ var connectionString = builder.Configuration.GetConnectionString("BWDashboardCon
 
 builder.Services.AddDbContext<BWDashboardContext>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<Users>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<BWDashboardContext>();
+builder.Services.AddDefaultIdentity<Users>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<BWDashboardContext>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();

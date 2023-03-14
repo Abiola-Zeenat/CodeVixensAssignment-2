@@ -76,14 +76,16 @@
                                     <div class="row mb-3">
                                         <div class="col-md-6">
                                             <div class="form-floating mb-3 mb-md-0">
-                                                <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" />
-                                                <label for="inputFirstName">First name</label>
+                                                <input asp-for= "Input.FirstName" class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" />
+                                                <label asp-for="Input.FirstName"></label>
+                                                <span asp-validation-for="Input.FirstName" class="text-danger"></span>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-floating">
-                                                <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" />
-                                                <label for="inputLastName">Last name</label>
+                                                <input asp-for="Input.LastName" class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" />
+                                                <label asp-for="Input.LastName"></label>
+                                                <span asp-validation-for="Input.LastName" class="text-danger"></span>
                                             </div>
                                         </div>
                                     </div>
